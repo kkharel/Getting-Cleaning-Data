@@ -10,6 +10,8 @@ fileURL = "https://data.sfgov.org/resource/5cei-gny5.csv"
 
 download.file(fileURL, destfile ="./NLP/eviction.csv" , method = "curl")
 
+?download.file
+
 list.files("./NLP")
 
 dateDownloaded = date()
